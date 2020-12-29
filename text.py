@@ -1,0 +1,2 @@
+idtxt = abc 
+pwd = cde
