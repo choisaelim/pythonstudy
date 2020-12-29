@@ -19,3 +19,5 @@ if idtxt != '' and pwd != '':
     # subprocess.check_output('pyinstaller attend.py --onefile ', shell=True, encoding='utf-8')  
 
 os.system("pause")
+
+#py -m PyInstaller  exe파일생성기.py --onefile --add-data 'attend.py;.'
