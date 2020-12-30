@@ -4,13 +4,11 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support import expected_conditions as EC
-from userinfo import idtxt, pwd
+from userinfo import idtxt, pwd, url
 from msg import success_msg, fail_msg
 import datetime
 import os
 import socket
-
-url = 'http://pms.tsb.co.kr/'
 
 framename = 'frame3'
 idbox = 'input[name="dlfma"]'
