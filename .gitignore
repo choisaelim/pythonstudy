@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 
 #source
-attend.py
+userinfo.py
 
 # C extensions
 *.so
